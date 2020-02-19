@@ -1,0 +1,18 @@
+/* Fading animation */
+.fade {
+    position: relative;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+
+@keyframes fade {
+    from {
+        transform: skew(180deg,45deg);
+
+    }
+    to {
+        transform: skew(0deg,0deg);
+    }
+
+}

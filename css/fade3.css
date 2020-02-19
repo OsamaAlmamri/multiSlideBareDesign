@@ -1,0 +1,18 @@
+/* Fading animation */
+.fade {
+    position: relative;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+
+@keyframes fade {
+    from {
+        transform: scale(.2);
+
+    }
+    to {
+        transform: scale(1);
+    }
+
+}
